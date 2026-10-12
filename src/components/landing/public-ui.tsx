@@ -30,6 +30,21 @@ export function PublicHeader({ center }: { center?: React.ReactNode }) {
           <span className="hidden flex-1 md:block" />
         )}
         <span className="flex-1 md:hidden" />
+        <a
+          href="https://www.producthunt.com/products/backlink-market?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-backlink-market"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="shrink-0 transition-opacity hover:opacity-90"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element -- a third-party badge served from Product Hunt's own CDN */}
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1277855&theme=dark&t=1791812971048"
+            alt="Backlink Market - Backlink Marketplace (Free and Open Source) | Product Hunt"
+            width={250}
+            height={54}
+            className="h-8 w-auto sm:h-10"
+          />
+        </a>
         <ThemeToggle />
         <GoogleButton size="sm" label="Sign in" />
       </div>
